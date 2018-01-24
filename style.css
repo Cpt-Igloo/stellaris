@@ -1,0 +1,135 @@
+	html, body {
+	padding:0;
+	margin:0;
+	color:white;
+	background-color:#243431;
+	font-family: Verdana,Geneva,sans-serif;
+}
+
+/*** ZONE GENERER FORMULAIRE ***/
+#title {
+	width:100%;
+	height:150	px;
+}
+
+#intro {
+	margin:50px auto 20px auto;
+	width:600px;
+	text-align: center;
+	font-family: "Lato",sans-serif;
+}
+
+#button {
+	width:100px;
+	height:30px;
+	background-color:white;
+    border-radius: 5px;
+    color: #243431;
+    font-family: "Lato",sans-serif;
+    line-height: 15px;
+    text-decoration: none;
+   	border-style:none;
+   	cursor:pointer;
+}
+
+
+#button:hover {
+	background-color:#243431;
+	border-style:solid;
+	border-color:white;
+	border-width:1px;
+	color:white;
+	transition:color 0.2s ease-in 0s;
+}
+#but {
+	margin:auto;
+	width:100px;
+}
+
+/***** ZONE INFORMATIONS *********/
+#content {
+	width:75%;
+	margin:0 auto;
+	margin-top:40px;
+}
+
+#speciepix {
+	float:left;
+	margin-right:40px;
+}
+
+#empirename {
+    font-family: "Lato",sans-serif;
+    font-size:3em;
+    color:#FF9540;
+}
+
+#speciegroup {
+	font-size:0.8em;
+	color:#909090 ;
+}
+
+#govpix {
+	float:left;
+	margin-right:10px;
+}
+
+#listethos {
+	list-style-type:none;
+}
+
+.ethos_list {
+	margin-bottom:20px;
+}
+
+#listetrait {
+	list-style-type:none;
+}
+
+.ethospix {
+
+}
+
+.bonus {
+	color:green;
+}
+
+.malus {
+	color:red;
+}
+
+/************ZONE PLANETE ET TECHNO **********/
+
+#contentbis {
+	width:80%;
+	margin:0 auto;
+	margin-top:30px;
+}
+
+#box1 {
+	position:relative;
+	width:33%;
+	float:left;
+	text-align: center;
+}
+
+#box2 {
+	position:relative;
+	width:33%;
+	float:left;
+	text-align: center;
+}
+
+#box3 {
+	position:relative;
+	width:32%;
+	float:left;
+	text-align: center;
+}
+
+/*
+#planet {
+	float:left;
+	margin:0 30px;
+}
+*/
